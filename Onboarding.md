@@ -33,7 +33,7 @@ If you want new channels feel free to create them and announce in the #general c
 	* Disadvantage: the resources are limited
 
 * [**Pangeo Clusters**](https://pangeo.io/): depending on your project, you may get access to use a community notebook environment with a cluster support
-	* Sign up for using Pangeo: [here](https://docs.google.com/forms/d/e/1FAIpQLSeqKncKG-s365pC_Lfe4_UetJ-wcFfjOSyHhYYQjXbKRHzswQ/viewform)
+	* Sign up for using Pangeo [here](https://docs.google.com/forms/d/e/1FAIpQLSeqKncKG-s365pC_Lfe4_UetJ-wcFfjOSyHhYYQjXbKRHzswQ/viewform)
 	* Link to log on: [http://aws-uswest2.pangeo.io/](http://aws-uswest2.pangeo.io/)
 
 * **APL Remote Desktop** (8 cores): some more expensive processing can be done there if needed, ask Wu-Jung to get set up.
@@ -45,19 +45,19 @@ If you want new channels feel free to create them and announce in the #general c
 
 
 ### Version Control: 
-To ensure access and reuse of the developed software, code should be developed under version control. We use git & Github. The group’s Github organization is: https://github.com/uw-echospace 
+To ensure access and reuse of the developed software, code should be developed under version control. We use git & Github. The group’s Github organization is: [https://github.com/uw-echospace](https://github.com/uw-echospace) 
 
 Some packages are also developed under:
-https://github.com/OSOceanAcoustics
+[https://github.com/OSOceanAcoustics](https://github.com/OSOceanAcoustics)
 
 
-If you do not have experience with version control: consider signing up for a Software Carpentry workshop which are usually taught during each quarter at the eScience Institute (sign up here for announcements), or go through some tutorials on your own.
+If you do not have experience with version control: consider signing up for a Software Carpentry workshop which are usually taught during each quarter at the eScience Institute (sign up [here](https://escience.washington.edu/get-involved/) for announcements), or go through some tutorials on your own. The [Atlassian Tutorials](https://www.atlassian.com/git/tutorials/what-is-version-control) have great visuals!
 
 Provide us with your Github username (sign up for an account [here](https://github.com/login)).
 
 Your repo should have a `README.md` which explains what the project is about.
 
-Make sure you are never uploading any private/big datasets to Github (keep in mind sometimes jupyter notebooks/plots store your data: clean cell output to avoid problems). You can use .gitignore in your repo to prevent from adding certain types of files. Also, avoid using `git add -A`.
+Make sure you are never uploading any private/big datasets to Github (keep in mind sometimes jupyter notebooks/plots store your data: clean cell output to avoid problems). You can use `.gitignore` in your repo to prevent from adding certain types of files. Also, avoid using `git add -A`.
 
 If you work on a project with other people, decide on a collaboration policy. Here are some examples: [Collaboration Workflows] (https://www.atlassian.com/git/tutorials/comparing-workflows).
 
