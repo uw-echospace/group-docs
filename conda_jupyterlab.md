@@ -63,3 +63,7 @@ conda environments can be specified and created using a text file called a conda
 2. cd (change directory) to where the conda environment `environment.yml` file is located. For example: `cd C:\Users\user1\fhloo`
 3. Create conda environment, assigned the name specified in the file (assume it's MYENV):  `conda env create -f environment.yml`
 4. "Activate" the environment to start using it:  `conda activate MYENV`
+
+### conda defaults and `.condarc` file
+
+From Don's presentation. This file, copied into the user "home" folder, sets several useful and common conda defaults: https://raw.githubusercontent.com/lsetiawan/computer-setup/main/.condarc
