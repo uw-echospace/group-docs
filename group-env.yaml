@@ -1,0 +1,29 @@
+name: echospace
+channels:
+- conda-forge
+dependencies:
+- python=3.8
+- echopype
+# Jupyterlab packages
+- ipykernel
+- nb_conda_kernels
+- jupyterlab>3
+- nodejs
+# Visualizations
+- datashader
+- holoviews
+- bokeh
+- plotly
+- matplotlib
+- hvplot
+- param
+# GIS
+- descartes
+- geopandas
+- geoviews-core
+- cartopy
+# Data Science
+- dask
+- pandas
+- numba
+- python-graphviz
