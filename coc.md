@@ -8,10 +8,8 @@ Echospace is dedicated to providing a harassment-free experience for everyone, r
 - Create an optimal learning and research environment for **everyone**
 
 
-## Dos and Dont's
-- Take initiative in your learning and exploration: 
-- Be curious and courteous
-- Be open, empathetic, friendly, and patient
+## How
+- Be open, empathetic, courteous, and patient
 - Be respectful to others’ views, whether it’s a technical or scientific question
 - Be inclusive regardless of technical expertise and career stage
 - Acknowledge contributions
