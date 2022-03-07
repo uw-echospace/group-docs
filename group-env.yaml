@@ -27,3 +27,5 @@ dependencies:
 - pandas
 - numba
 - python-graphviz
+# Data Pipeline
+- prefect<1.0
