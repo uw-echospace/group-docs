@@ -206,12 +206,12 @@ For more detailed explanation straight from the CEO see his post on [medium](htt
 
 #### Steps to deployment
 
-1. Build your flow: Use Prefect Core library to design, test, and build a workflow. **We did this above!**
-2. Register Your Flow: Send metadata about your flow (but never code!) to Prefect Cloud. This registers the flow for execution and lets you inspect and interact with it in the Prefect Cloud UI.
-3. Run an Agent: Run an open-source Prefect Agent on your infrastructure. The Agent, which ships as part of Prefect Core, monitors Cloud for scheduled work.
-4. Schedule Work: Use the Prefect Cloud UI or API to schedule a new run of your flow. This will put the flow into a `Scheduled` state.
-5. Run the Flow: The Agent will detect that a new run has been scheduled and launch the flow on your private infrastructure. Any state changes will be communicated back to Prefect Cloud.
-6. Monitor and Manage: In the live-updating Prefect Cloud UI, you can watch progress across all of your flows, no matter how many you have or how often they run.
+1. **Build your flow**: Use Prefect Core library to design, test, and build a workflow. **We did this above!**
+2. **Register Your Flow**: Send metadata about your flow (but never code!) to Prefect Cloud. This registers the flow for execution and lets you inspect and interact with it in the Prefect Cloud UI.
+3. **Run an Agent**: Run an open-source Prefect Agent on your infrastructure. The Agent, which ships as part of Prefect Core, monitors Cloud for scheduled work.
+4. **Schedule Work**: Use the Prefect Cloud UI or API to schedule a new run of your flow. This will put the flow into a `Scheduled` state.
+5. **Run the Flow**: The Agent will detect that a new run has been scheduled and launch the flow on your private infrastructure. Any state changes will be communicated back to Prefect Cloud.
+6. **Monitor and Manage**: In the live-updating Prefect Cloud UI, you can watch progress across all of your flows, no matter how many you have or how often they run.
 
 ### Demo
 
@@ -225,9 +225,9 @@ There are 3 main concepts for deployment that you should know regarding flow con
 - `Run Configuration`: describes where and how a flow run should be executed.
 - `Executor`: describes where and how tasks in a flow run should be executed.
 
-##### Storage
+##### [Storage](https://docs.prefect.io/orchestration/flow_config/storage.html)
 
-For this demo we will create a Docker Storage
+For this demo we will create a Docker Storage. There are ways to customize your docker image further than just using Prefect's default image, see their [docs](https://docs.prefect.io/orchestration/flow_config/docker.html) for futher details. Here's an [example of a Dockerfile](https://github.com/ooi-data/stream_template/blob/main/recipe/Dockerfile) that I've created for a prefect flow that utilizes the `pangeo-notebook` image as base.
 
 ```python
 from prefect.storage import Docker
@@ -247,7 +247,7 @@ storage.build(push=True)
 flow.storage = storage
 ```
 
-##### Run Configuration
+##### [Run Configuration](https://docs.prefect.io/orchestration/flow_config/run_configs.html)
 
 For this demo I have currently an [ECS (Elastic Container Service) Agent](https://docs.prefect.io/orchestration/agents/ecs.html) setup, so we will use that. To do this, we will have to create an [ECSRun Run Configuration](https://docs.prefect.io/orchestration/flow_config/run_configs.html#ecsrun).
 
@@ -270,9 +270,9 @@ run_config = ECSRun(
 flow.run_config = run_config
 ```
 
-##### Executor
+##### [Executor](https://docs.prefect.io/orchestration/flow_config/executors.html)
 
-For this demo, since we are only working with one file at a time, there's no need for parallelization, so we're just going to use the LocalExecutor
+For this demo, since we are only working with one file at a time, there's no need for parallelization, so we're just going to use the `LocalExecutor`.
 
 ```python
 from prefect.executors import LocalExecutor
