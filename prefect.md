@@ -157,7 +157,7 @@ Now that you have learned the basic building blocks and some other concepts, it'
                                     overwrite, output_storage_options)
     ```
 
-4. Visualize the flow as DAG
+4. Visualize the flow as a [DAG](https://en.wikipedia.org/wiki/Directed_acyclic_graph) (Direct Acyclic Graph).
 
     ```python
     flow.visualize()
