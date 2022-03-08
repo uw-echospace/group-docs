@@ -221,9 +221,9 @@ The following deployment demo will be run using an infrastructure that has been 
 
 There are 3 main concepts for deployment that you should know regarding flow configurations: `Storage`, `Run Configuration`, and `Executor`
 
-- `Storage`: describes where the flow should be stored to and loaded from during execution.
-- `Run Configuration`: describes where and how a flow run should be executed.
-- `Executor`: describes where and how tasks in a flow run should be executed.
+- `Storage`: describes *where* the **flow** should be stored to and loaded from during execution.
+- `Run Configuration`: describes *where* and *how* a **flow** run should be executed.
+- `Executor`: describes *where* and *how* **tasks** in a flow run should be executed.
 
 ##### [Storage](https://docs.prefect.io/orchestration/flow_config/storage.html)
 
