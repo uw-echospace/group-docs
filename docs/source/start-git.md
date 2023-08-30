@@ -1,4 +1,4 @@
-# Getting started on git and GitHub
+# Git and GitHub
 
 Some topics to consider:
 - What is git? How is git and GitHub different?

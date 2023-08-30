@@ -1,4 +1,4 @@
-# Getting started on the cloud
+# Cloud computing
 
 Some topics to consider:
 - What is the cloud?

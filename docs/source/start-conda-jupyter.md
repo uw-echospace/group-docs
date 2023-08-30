@@ -1,4 +1,4 @@
-# Getting started on conda and Jupyter
+# Conda and Jupyter
 
 Some topics to consider:
 - What is conda?
