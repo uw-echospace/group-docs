@@ -9,7 +9,7 @@ parts:
   - file: coc
 - caption: Computational setup
   chapters:
-  - file: start-conda-jupyter
-  - file: start-git
-  - file: start-cloud
-  - file: start-compute-others
+  - file: compute-conda-jupyter
+  - file: compute-git
+  - file: compute-cloud
+  - file: compute-others
