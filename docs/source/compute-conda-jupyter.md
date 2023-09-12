@@ -126,7 +126,9 @@ conda install numpy --solver=classic
 
 For detailed explanations about this and the technical details, you can go to: https://conda.github.io/conda-libmamba-solver/
 
-### Filipe's OHW23 tutorial / presentation
-(from https://github.com/oceanhackweek/ohw-tutorials/blob/OHW23/00-Mon/README.md)
+### Other helpful materials
 
-Software installation survival guide (conda and friends)
+- Filipe's [OHW23 Software installation survival guide (conda and friends) tutorial / presentation](https://github.com/oceanhackweek/ohw-tutorials/blob/OHW23/00-Mon/README.md)
+- Filipe's [OHW22 Managing conda environments tutorial](https://oceanhackweek.org/ohw22/tutorials/optional/managing-conda-envs/README.html)
+- In Filipe's OHW22 tutorial, he stated this: Software Carpentry has this amazing incubated tutorial that is worth reading: https://carpentries-incubator.github.io/introduction-to-conda-for-data-scientists/
+- Project Pythia, [Installing and Managing Python with Conda — Pythia Foundations](https://foundations.projectpythia.org/foundations/conda.html)
