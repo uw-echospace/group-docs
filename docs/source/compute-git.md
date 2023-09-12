@@ -1,13 +1,17 @@
 # Git and GitHub
 
-Some topics to consider:
-- What is git? How is git and GitHub different?
-- Installation
-    - consider different platforms
-- How we use git/GtiHub in managing our projects?
-    - consider different repo types and project types
-    - when to create a new repo?
-- The GitHub Fork-Branch-Pull Request workflow
-    - resource: https://www.dataschool.io/how-to-contribute-on-github/
-- GitHub repo permissions and visibility
-- ...
+### Here are some of the links we have compiled that have helped us understand how to use git and GitHub for our collaboration.
+### For readability, we will add 2 links for each topic we wish to guide you through.
+
+## Table of Contents
+1) Starting with git/GitHub
+2) Repositories
+    - Forks
+    - Clones
+3) Branches
+4) Updating your repository
+    - Commits
+    - Merge
+    - Pull requests
+5) Advanced topics
+
