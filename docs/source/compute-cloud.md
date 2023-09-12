@@ -30,7 +30,7 @@ https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html): you nee
    - Advice from AWS: [multi-factor authentification](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_mfa_enable.html)
  
 * Getting Started Tutorials: Overview
-    - Cloud 101 tutorials (escience)
+    - [eScience Cloud 101](https://cloudmaven.github.io/documentation/aws_overview.html) tutorial 
     - [AWS Skill Center] (https://aws.amazon.com/training/skills-centers/seattle-skills-center/) 
     - Dingrui: tutorials
     - Billing (Valentina)
