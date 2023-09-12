@@ -69,6 +69,15 @@ Not too small, coz then mamba does not run
         - Storing data for quicker use on EFS
         - Storing data for backup use on S3
 
+* Advice to admins:
+    - Rotate keys (have a schedule)
+    - Check tags
+    - Check EC2 Volumes
+    - Check EFS and S3 Volumes
+    - Global View of ec2 instances (we can look in all regions)
+    - [CloudTrail](https://us-west-2.console.aws.amazon.com/cloudtrail/home?region=us-west-2#/events?ReadOnly=false)
+        - Check what role is needed for users to see cloud trail
+        - Check all zones
 
 
 * Extra
