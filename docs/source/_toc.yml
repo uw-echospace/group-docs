@@ -13,3 +13,4 @@ parts:
   - file: compute-git
   - file: compute-cloud
   - file: compute-others
+  - file: hpc
