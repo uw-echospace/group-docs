@@ -22,9 +22,11 @@ At Echospace we use Amazon Web Services for some projects. Some common use cases
 
 * Different types of credentials 
    - [ec2 key pairs](
-https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html): you need those to connect to an ec2 instance 
-   - [configuration and credential Files](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html) (will need to connect to private S3 Bucket)
-   - how to use your credentials (ask Don for more details)
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html): you need those to connect to an ec2 instance
+   - access keys (often stored in a `credentials.csv` or an `accessKeys.csv` file): those are used either through the aws client or other tools to programmatically use aws services
+   - console log-in (stored in a `credentials.csv` file): you can use it to start/stop some services and monitor your resources 
+   - [configuration and credential Files](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html) (for example, used to connect to data on private S3 buckets)
+   - how to store and use your credentials (ask Don for more details)
    - Advice from AWS: [multi-factor authentification](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_mfa_enable.html)
  
 * Getting Started Tutorials: Overview
