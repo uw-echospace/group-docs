@@ -1,0 +1,6 @@
+name: echospace_docs
+channels:
+- conda-forge
+- default
+dependencies:
+- jupyter-book
