@@ -1,11 +1,6 @@
 # Echospace Group Onboarding
 
-In this collection we share useful resources and materials among echospace group members.
-
 You are welcome to contribute to this guide. What will be useful to your future colleages?
-
-```{tableofcontents}
-```
 
 ### Computing Infrastructure:
 
