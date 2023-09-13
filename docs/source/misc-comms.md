@@ -18,7 +18,7 @@ Below are some tips and expectations:
 ## Slack workspace
 - [Echospace Slack workspace](http://uw-echospace.slack.com/)
 - Feel free to:
-    - Add or remove yourself from channels, but make sure you stay in the know for your and related projects, as well as group announcements
+    - Add or remove yourself from channels, but make sure you stay in the know for your projects, as well as group announcements
     - Create new channels and announce in the #general channel for others to join
 - Default channels you're added to:
     - #general
