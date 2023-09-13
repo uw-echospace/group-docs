@@ -7,8 +7,6 @@ parts:
 - caption: Getting started
   chapters:
   - file: coc
-- caption: Daily misc
-  chapters:
   - file: misc-comms
 - caption: Computational setup
   chapters:
