@@ -33,7 +33,7 @@ https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html): you nee
 ## Getting Started Tutorials: Overview
 
 * [eScience Cloud 101](https://cloudmaven.github.io/documentation/aws_overview.html) tutorial 
-* [AWS Skill Center] (https://aws.amazon.com/training/skills-centers/seattle-skills-center/) 
+* [AWS Skill Center](https://aws.amazon.com/training/skills-centers/seattle-skills-center/) 
 * Dingrui: tutorials
 * Billing (Valentina)
     - [Billing Page](https://us-east-1.console.aws.amazon.com/billing/home?region=us-west-2#/bills)
