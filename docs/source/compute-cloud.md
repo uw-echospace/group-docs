@@ -29,7 +29,7 @@ https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html): you nee
    - how to store and use your credentials (ask Don for more details)
    - Advice from AWS: [multi-factor authentification](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_mfa_enable.html)
  
-* Getting Started Tutorials: Overview
+# Getting Started Tutorials: Overview
     - [eScience Cloud 101](https://cloudmaven.github.io/documentation/aws_overview.html) tutorial 
     - [AWS Skill Center] (https://aws.amazon.com/training/skills-centers/seattle-skills-center/) 
     - Dingrui: tutorials
@@ -50,28 +50,28 @@ Not too small, coz then mamba does not run
             - Add Pictures for this
             - Finish the rest of this
          
-* Tagging Resources (Valentina)
+# Tagging Resources (Valentina)
       Resources do not get tagged automatically by the user on AWS when services get started from the console. One needs to add them manually during set up or after the service gets started.
     - Email
     - Owner
     - Project 
     - Task 
 
-* Moving resources between different providers/local-to-cloud (Valentina)
+# Moving resources between different providers/local-to-cloud (Valentina)
     - [Rclone](https://rclone.org/)
 
-* Extra tutorials
+# Extra tutorials
     - cloud agnostic: [terraform](https://www.terraform.io/)
     - prefect : [Prefect AWS](https://prefecthq.github.io/prefect-aws/)
 
-* What people have used in the group?
+# What people have used in the group?
     - Hake ML Project (Caesar)
     - EC2 Instances
         - Converting, Calibrating, Regridding, Mask Creation
         - Storing data for quicker use on EFS
         - Storing data for backup use on S3
 
-* Advice to admins:
+# Advice to admins:
     - Rotate keys (have a schedule)
     - Check tags
     - Check EC2 Volumes
