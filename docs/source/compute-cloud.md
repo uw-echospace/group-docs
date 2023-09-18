@@ -27,13 +27,6 @@ https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html): you nee
 * [ec2 instance set-up](https://frosted-hamster-458.notion.site/Set-up-env-ec2-faeceebfc16f45509d3f4c18c25f2c22) by @ldr426
 * [eScience Cloud 101](https://cloudmaven.github.io/documentation/aws_overview.html) tutorial 
 * [AWS Skill Center](https://aws.amazon.com/training/skills-centers/seattle-skills-center/)
-
-* Billing
-  It is important to learn to monitor AWS billing even as a new user/.
-    - [Billing Page](https://us-east-1.console.aws.amazon.com/billing/home?region=us-west-2#/bills)
-    - [Pricing of EC2 instances](https://aws.amazon.com/ec2/pricing/on-demand/)
-    - [Pricing of S3 storage](https://aws.amazon.com/s3/pricing/) Note: while moving data into S3 is free, moving data out of S3 is expensive (it is called egress fee). Discuss with us if you plan to download large (greater than 100GB) datasets out of S3
-    - [Pricing calculator](https://calculator.aws/#/)
           
 * Jupyter Notebook and Python Scripts on EC2 (Caesar)
     - Instructions 
@@ -45,10 +38,20 @@ Not too small, coz then mamba does not run
         - Install remote SSH on VSCode
         - Add Pictures for this
         - Finish the rest of this
+
+
+## Billing
+
+It is important to learn to monitor AWS billing even as a new user.
+
+    - [Billing Page](https://us-east-1.console.aws.amazon.com/billing/home?region=us-west-2#/bills)
+    - [Pricing of EC2 instances](https://aws.amazon.com/ec2/pricing/on-demand/)
+    - [Pricing of S3 storage](https://aws.amazon.com/s3/pricing/) Note: while moving data into S3 is free, moving data out of S3 is expensive (it is called egress fee). Discuss with us if you plan to download large (greater than 100GB) datasets out of S3
+    - [Pricing calculator](https://calculator.aws/#/)
          
 ## Tagging Resources
 
-Resources do not get tagged automatically by the user on AWS when services get started from the console. One needs to add them manually during set up or after the service gets started. Please, the following tags for your resources.
+Tagging resources is particularly useful to track usage and billing. Resources do not get tagged automatically by the user on AWS when services get started from the console.  One needs to add tags manually during set up or after the service gets started. Please, the following tags for your resources.
 
 * Email
 * Owner
