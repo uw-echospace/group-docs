@@ -58,8 +58,7 @@ Resources do not get tagged automatically by the user on AWS when services get s
 ## Moving resources between different providers/local-to-cloud
 * [Rclone](https://rclone.org/)
 
-## Cloud Agnostic Tools
-    
+## Cloud Agnostic Tools   
     * [terraform](https://www.terraform.io/): terraform allow scripting the cloud set up commands and works with different cloud providers
     * [fsspec](https://filesystem-spec.readthedocs.io/en/latest/): Filesystem Spec is a Python tool to access local, remote and embedded file systems and bytes storage in a unified way 
     * [Prefect AWS](https://prefecthq.github.io/prefect-aws/): Prefect is a general data workflow tool which allows integration with AWS, but can be set up with other providers.
