@@ -4,7 +4,7 @@ Here are some of the links we have compiled that have helped us understand how t
 For readability, we will add a couple links for each topic we wish to guide you through.
 
 ## 1. Starting with git/GitHub
-Git is a version control tool that helps in project development by providing a system where users can manage and view several versions of a single project. Projects can vary from simple documentation to large software.
+Git is a version control tool that provides a system where users can manage and develop multiple versions of their personal or professional projects.
 * This [tutorial](https://www.freecodecamp.org/news/git-and-github-for-beginners/) introduces Git and GitHub's purpose and benefits very well.
 * This [tutorial](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners) explains the differences between git and GitHub and walks its readers through all the basic steps to get started with GitHub.
 
