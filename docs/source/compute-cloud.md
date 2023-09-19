@@ -29,7 +29,7 @@ https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html): you nee
     * [eScience Cloud 101](https://cloudmaven.github.io/documentation/aws_overview.html) tutorial 
     * [AWS Skill Center](https://aws.amazon.com/training/skills-centers/seattle-skills-center/)
           
-### Short Tutorial VSCode and Python with EC2
+### Short Tutorial on VSCode and Python with EC2
 - Start EC2 Instance
     - (Note: This Assumes that you have created an EC2 Instance with "enough" RAM, have a permissions file, and have the ability to log into your AWS account and access the AWS Console)
     1) Search EC2 In the console search bar
