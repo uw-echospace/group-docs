@@ -6,9 +6,9 @@ High-performance computing (HPC) is a broad term used to describe the use of hig
 The Slurm workload manager, formerly Simple Linux Utility for Resources Management (SLURM), is an open-source job scheduler for Linux and Unix kernels used by various supercomputers and computer clusters worldwide. It is highly scalable management for job scheduling for large and small Linux clusters. A general overview of the Slurm workload manager can be found [here](https://slurm.schedmd.com/overview.html).
 
 
-## Using SLURM (in Windows)
+## Using SLURM (on Windows)
 
-Here, we will introduce an approach to using Slurm in Windows by installing `Windows Subsystems for Linx (WSL)`. In light of this, we will start with installing `Ubuntu` to install Linux on Windows. For those not using Windows, you can skip the `Installing Ubuntu` below.
+Here, we will introduce an approach to using Slurm on Windows by installing `Windows Subsystems for Linx (WSL)`. In light of this, we will start with installing `Ubuntu` to install Linux on Windows. For those not using Windows, you can skip the `Installing Ubuntu` below.
 
 ### Installing Ubuntu
 
