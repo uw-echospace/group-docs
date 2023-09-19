@@ -24,21 +24,59 @@ https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html): you nee
  
 ## Getting Started Tutorials: Overview
 
-* [ec2 instance set-up](https://frosted-hamster-458.notion.site/Set-up-env-ec2-faeceebfc16f45509d3f4c18c25f2c22) by @ldr426
-* [eScience Cloud 101](https://cloudmaven.github.io/documentation/aws_overview.html) tutorial 
-* [AWS Skill Center](https://aws.amazon.com/training/skills-centers/seattle-skills-center/)
+* Recommended Starting Links
+    * [ec2 instance set-up](https://frosted-hamster-458.notion.site/Set-up-env-ec2-faeceebfc16f45509d3f4c18c25f2c22) by @ldr426
+    * [eScience Cloud 101](https://cloudmaven.github.io/documentation/aws_overview.html) tutorial 
+    * [AWS Skill Center](https://aws.amazon.com/training/skills-centers/seattle-skills-center/)
           
-* Jupyter Notebook and Python Scripts on EC2 (Caesar)
-    - Instructions 
-    - Starting with small instances for setup, and then increase type
-Not too small, coz then mamba does not run 
-    - Use Amazon Machine Image (AMI) Amazon Linux 2023 AMI
-    - VSCode connect to EC2 (use Jupyter Notebook)
-        - Install VSCode
-        - Install remote SSH on VSCode
-        - Add Pictures for this
-        - Finish the rest of this
-
+### Short Tutorial VSCode and Python with EC2 (Caesar)
+- Start EC2 Instance
+    - (Note: This Assumes that you have created an EC2 Instance with "enough" RAM, have a permissions file, and have the ability to log into your AWS account and access the AWS Console)
+    1) Search EC2 In the console search bar
+    2) Click on Instances
+    3) Turn on the instance you wish to connect to
+        - Click on the instance’s ID and you should see the following:
+            
+            ![EC2 Connect Dropdowns](../images/compute_cloud/ec2_connect_dropdown.png)
+        - Click on the Instance State dropdown menu
+        - Click Start Instance
+    4) You should now see a page with the following tab bar. Make sure you stay on this page. The most    important tabs here are EC2 Instance Connect and SSH Client.
+            
+        ![EC2 Connect Tabs](../images/compute_cloud/ec2_connect_tabs.png)
+- Install VSCode [Download Link](https://code.visualstudio.com/download) and open up a VSCode Window
+- Install remote SSH on VSCode
+    1) Search "Remote - SSH" in extensions
+        
+        ![Remote SSH Extension](../images/compute_cloud/remote_ssh_extension.png)
+    2) Install it
+        
+        ![Install Remote SSH](../images/compute_cloud/install_remote_ssh.png)
+- Setup Configuration File and Connect to EC2 Instance open_remote_window.png
+    1) Go to the Bottom Left and Click the two carrot button
+        
+        ![Open Remote Window](../images/compute_cloud/open_remote_window.png)
+    2) You should now see the following window on the top of your VSCode window
+        
+        ![Remote Window Options](../images/compute_cloud/remote_window_options.png)
+    3) Click on SSH and then on Add New SSH Host
+    4) Enter SSH Command as found in the SSH client session of the Connect page for your EC2 Instance
+    5) It’ll then ask you what SSH configuration file to update. Choose any.
+    6) It’ll then show you the SSH configuration file that you chose to update. Make sure that there is only 1 Host, 1 HostName, 1 User, and 1 Identity File.
+    7) The most recent HostName should be correct and the Host can be any name you wish for it to be.
+    8) Make sure that the User aligns with what is shown in the User name entry found in EC2 Instance Connect section in the Connect page for your EC2 instance
+    9) Click again on the bottom left corner, click Connect to Host, and then click whichever Host you had previously configured.
+        
+        ![SSH Host Options](../images/compute_cloud/ssh_host_options.png)
+        - You should now be connected access your EC2 instance via SSH.
+- Setup EC2 Instance via VSCode Connection with Python, Git, and Github
+    1) In the terminal, run `sudo yum install python`
+    2) In the terminal, run `sudo yum install git`
+    3) To log into your github account on the EC2 instance, follow steps 3 through 5 as shown in this guide [Amazon EC2 Beginners Guide](https://saturncloud.io/blog/how-to-set-up-git-on-amazon-cloud-ec2-a-beginners-guide/)
+    4) Install the Jupyter Notebook extension via VSCode
+        
+        ![Install Jupyter Notebook](../images/compute_cloud/install_jupyter_notebook.png)
+    5) Insert the following Test Python Script `hello.py` anywhere in your EC2 Instance: [Gist hello.py Script](https://gist.github.com/mosbth/b274bd08aab0ed0f9521).
+    6) Run the `hello.py` script with `python -u /path-to-hello-script/hello.py` in the terminal.
 
 ## Billing
 
