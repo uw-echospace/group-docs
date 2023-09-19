@@ -2,17 +2,6 @@
 
 You are welcome to contribute to this guide. What will be useful to your future colleages?
 
-### Communication:	
-Slack: [uw-echospace-workspace](http://uw-echospace.slack.com/)
-
-Channels (feel free to add yourself, or remove yourself):
-
-* #general
-* #pangeo-demo
-* #sonar-conventions
-
-If you want new channels feel free to create them and announce in the #general channel for others to join.
-
 ### Computing Infrastructure:
 
 * **Personal computers**: this works for building prototypes and when not working with big data
