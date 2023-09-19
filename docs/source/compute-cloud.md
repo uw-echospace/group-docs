@@ -44,10 +44,10 @@ Not too small, coz then mamba does not run
 
 It is important to learn to monitor AWS billing even as a new user.
 
-    - [Billing Page](https://us-east-1.console.aws.amazon.com/billing/home?region=us-west-2#/bills)
-    - [Pricing of EC2 instances](https://aws.amazon.com/ec2/pricing/on-demand/)
-    - [Pricing of S3 storage](https://aws.amazon.com/s3/pricing/) Note: while moving data into S3 is free, moving data out of S3 is expensive (it is called egress fee). Discuss with us if you plan to download large (greater than 100GB) datasets out of S3
-    - [Pricing calculator](https://calculator.aws/#/)
+    * [Billing Page](https://us-east-1.console.aws.amazon.com/billing/home?region=us-west-2#/bills)
+    * [Pricing of EC2 instances](https://aws.amazon.com/ec2/pricing/on-demand/)
+    * [Pricing of S3 storage](https://aws.amazon.com/s3/pricing/) Note: while moving data into S3 is free, moving data out of S3 is expensive (it is called egress fee). Discuss with us if you plan to download large (greater than 100GB) datasets out of S3
+    * [Pricing calculator](https://calculator.aws/#/)
          
 ## Tagging Resources
 
