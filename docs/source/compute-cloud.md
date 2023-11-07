@@ -19,8 +19,8 @@ https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html): you nee
     - [configuration and credential files](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html): those files have specific structure and are useful when storing different configurations
    
 * Security of credentials
-    - It is crucial to be very cautious when managing security credentials. A danger to commit credentials to github and make them public. There are credential hackers who regularly scan github for credentials and use them as soon as they become exposed. To avoid this problem. NEVER PUT CREDENTIALS DIRECTLY IN CODE (SCRIPTS OR NOTEBOOKS). Do not do this even temporarily, as you might forget. It is best to store them in files and read the files from the code. Include the credential filename in your `.gitignore`.
-    - Advice from AWS: [multi-factor authentification](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_mfa_enable.html)
+    - It is crucial to be very cautious when managing security credentials. A common danger is to commit credentials to github and make them public. There are credential hackers who regularly scan github for credentials and use them as soon as they become exposed. To avoid this problem, NEVER PUT CREDENTIALS DIRECTLY IN CODE (SCRIPTS OR NOTEBOOKS). Do not do this even temporarily, as you might forget to reverse the changes before you commit. It is best to store them in files and read the files from the code. Include the credential filename in your `.gitignore`.
+
  
 ## Getting Started Tutorials: Overview
 
@@ -97,7 +97,7 @@ Tagging resources is particularly useful to track usage and billing. Resources d
 * Task 
 
 ## Moving resources between different providers/local-to-cloud
-* [Rclone](https://rclone.org/)
+* [Rclone](https://rclone.org/): `rclone` is a nice tool to move files between different filesystem types using typical `unux`-like syntax
 
 ## Cloud Agnostic Tools   
 
@@ -114,13 +114,27 @@ Tagging resources is particularly useful to track usage and billing. Resources d
 
 ## Advice to admins:
 * Rotate keys (have a schedule)
+* Ask each user to set up [multi-factor authentification](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_mfa_enable.html)
+  - they should install an app such as DUO on their phone
+  - the admin should generate a QR code and the user should scan it to get security keys
 * Check tags
 * Check EC2 Volumes
 * Check EFS and S3 Volumes
-* Global View of ec2 instances (we can look in all regions)
+* [Global View](https://us-east-1.console.aws.amazon.com/ec2globalview/) of ec2 instances (we can look in all regions)
 * [CloudTrail](https://us-west-2.console.aws.amazon.com/cloudtrail/home?region=us-west-2#/events?ReadOnly=false)
     - Check what role is needed for users to see cloud trail
     - Check all zones
+* Limit the number of regions available by default ([settings](https://us-east-1.console.aws.amazon.com/billing/home?region=us-east-1#/account))
+* Extra services from AWS to help with cost monitoring and fraud detection:
+  - [Budgets](https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-managing-costs.html)
+
+  - [Amazon CloudWatch](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/gs_monitor_estimated_charges_with_cloudwatch.html)
+
+  - [AWS CloudTrail](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-user-guide.html)
+
+  - [AWS Trusted Advisor](https://docs.aws.amazon.com/awssupport/latest/user/get-started-with-aws-trusted-advisor.html)
+
+  - [AWS Cost Anomaly Detection](https://aws.amazon.com/aws-cost-management/aws-cost-anomaly-detection/)
 
 
 ## Extra
