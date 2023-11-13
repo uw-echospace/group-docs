@@ -6,7 +6,7 @@ To set up data access using `rclone`:
 1. Follow the steps [here](https://openstoragenetwork.readthedocs.io/en/latest/accessing-datasets.html#rclone) to install `rclone` 
 2. Configure access to OSN by generating and editing `rclone.conf` according to [here](https://openstoragenetwork.readthedocs.io/en/latest/accessing-datasets.html#rclone-configuration)
   - example entry:
-    ```
+    ```ini
     [alias]  # how you want to call this in rclone
     type = s3
     provider = Ceph
