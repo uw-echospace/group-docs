@@ -15,4 +15,5 @@ parts:
   - file: compute-cloud
   - file: compute-hpc
     title: HPC and SLURM
+  - file: compute-osn
   - file: compute-others
