@@ -9,10 +9,31 @@ Echospace is dedicated to providing a harassment-free experience for everyone, r
 
 
 ## How
-- Be open, empathetic, courteous, and patient
-- Be respectful to others’ views, whether it’s a technical or scientific question
-- Be inclusive regardless of technical expertise and career stage
-- Acknowledge contributions
-- Ensure everyone has the opportunity to participate both online and offline
-- If you see something inappropriate, let Wu-Jung, Valentina, or Emilio know immediately, or [report to the University](https://www.washington.edu/ombud/)
-
+- Be proactive
+  - Say hello to people you meet at work (in the morning when you come to work, etc)
+  - Be on time and respect other’s time, communicate if you don’t have time
+  - Don’t be afraid of being wrong and ask, and answer to questions from others kindly
+- Be open to change
+- Communication
+  - Respect other person’s background may be different from yours
+  - Be welcoming to others’ perspectives and what makes them tick, what excites them
+  - Don’t assume people know or don’t know what you’re talking about, it is ok and often better to just ask
+  - When there are different opinions, try to convince others by reasoning, and avoid being dismissive because of others’ career stages or rank
+  - Strive to communicate, both when we don’t think we understand what the other person is saying and when we think we are not being understood (misunderstandings)
+  - Acknowledge contributions from others
+- Ask questions and provide feedback kindly
+  - Use “we” instead of “you”
+  - Use sandwich method: start with positive statement, follow with the comment “have you consider XYZ”, and end with positive affirmation/offer support
+  - Provide constructive feedback, elaborate on your comments, and be willing to explain more
+  - Value listening to others, and asking respectful questions
+  - Provide positive feedback too!
+- Group interaction and collaboration
+  - Have clear expectations and communicate openly, to avoid last minute surprises
+  - Ensure everyone has the opportunity to participate both online and in person
+  - Give opportunities to others to speak first
+  - Make accommodations for personal emergencies
+- Help each other grow
+  - Provide opportunities for peer mentoring
+  - Sharing opportunities in the group that others might be interested in (or would want to be involved in)
+  - Enable and encourage growth by everyone in the group, in directions that align with what they’re interested in
+  - Be comfortable bringing up issues or obstacles that hold you back from getting work done
