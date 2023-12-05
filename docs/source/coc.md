@@ -9,11 +9,11 @@ Echospace is dedicated to providing a harassment-free experience for everyone, r
 
 
 ## How
-- Be open, empathetic, courteous, and patient
-- Be respectful to others’ views, whether it’s a technical or scientific question
-- Be inclusive regardless of technical expertise and career stage
-- Acknowledge contributions
-- Ensure everyone has the opportunity to participate both online and offline
+
+We periodically discuss within the group about what we could do to make a good environment together. See [this page on our group website](https://uw-echospace.github.io/values/2023-10-coc-values/) for the latest discussion results.
+
+
+## Reporting forms
 - Provide feedback on what to improve either in person or use the [Echospace Anonymous Feedback Form](https://forms.gle/NZFZBQLk9BoMLZCV6) if you prefer to remain anonymous
 - If you see something inappropriate, let Wu-Jung, Valentina, or Emilio know immediately, or contact the [Office of the Ombud](https://www.washington.edu/ombud/) for support in conflict resolution. You can refer to some additional resources from the UW HR office [here](https://hr.uw.edu/policies/complaint-resolution/) or refer to your department for advice.
 
