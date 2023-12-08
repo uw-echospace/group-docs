@@ -162,7 +162,7 @@ conda env create -f environment.yaml
 Alternatively, a conda environment can also be created using a `requirements.txt` file that follows the format used with `pip` (for example, see [here](https://linuxhint.com/conda-install-requirements-txt/)). In that case, you will need to specify the conda channel and the name of the environment:
 
 ```bash
-conda create -c conda-forge -f requirements.txt -n MYENV
+conda create -c conda-forge --file requirements.txt -n MYENV
 ```
 
 For additional information on conda environments, consult these resources:
