@@ -147,4 +147,3 @@ Provide your mentor's with a link to your updates.
 * [SciPy](https://www.scipy2021.scipy.org/)
 * [PyCon](https://us.pycon.org/2021/)
 * [PyData](https://global.pydata.org/)
-
