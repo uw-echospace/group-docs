@@ -3,17 +3,11 @@
 
 format: jb-book
 root: intro
-parts:
-# - caption: Getting started
-#   chapters:
-#   - file: coc
-#   - file: misc-comms
-# - caption: Computational setup
-#   chapters:
-  - file: compute-conda-jupyter
-  - file: compute-git
-  - file: compute-cloud
-  - file: compute-hpc
-    title: HPC and SLURM
-  - file: compute-osn
-  - file: compute-others
+chapters:
+- file: compute-conda-jupyter
+- file: compute-git
+- file: compute-cloud
+- file: compute-hpc
+  title: HPC and SLURM
+- file: compute-osn
+- file: compute-others
